@@ -16,7 +16,10 @@
     "node": ">=18.0"
   },
   "dependencies": {
+    "@cdktf/provider-cloudflare": "8.0.0",
+    "@cdktf/provider-digitalocean": "7.0.0",
     "@cdktf/provider-tfe": "7.0.0",
+    "@cdktf/provider-tls": "7.0.0",
     "cdktf": "^0.17.0",
     "constructs": "^10.2.61",
     "dotenv": "^16.3.1",
