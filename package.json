@@ -1,0 +1,47 @@
+{
+  "main": "main.js",
+  "types": "main.ts",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "get": "cdktf get",
+    "build": "tsc",
+    "synth": "cdktf synth",
+    "compile": "tsc --pretty",
+    "watch": "tsc -w",
+    "upgrade": "npm i cdktf@latest cdktf-cli@latest",
+    "upgrade:next": "npm i cdktf@next cdktf-cli@next"
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "dependencies": {
+    "@cdktf/provider-tfe": "7.0.0",
+    "cdktf": "^0.17.0",
+    "constructs": "^10.2.61",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "get-caller-file": "^2.0.5",
+    "glob": "^10.3.1",
+    "lodash": "^4.17.21",
+    "natural-orderby": "^3.0.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/ejs": "^3.1.2",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^18.16.18",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "type-fest": "^3.12.0",
+    "typescript": "^5.1.3"
+  }
+}
