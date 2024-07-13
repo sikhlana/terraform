@@ -3,7 +3,10 @@
   "app": "npx ts-node main.ts",
   "projectId": "[UUID]",
   "sendCrashReports": "true",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "namecheap/namecheap@~> 2.1",
+    "lexfrei/namedotcom@~> 1.3"
+  ],
   "terraformModules": [],
   "context": {}
 }

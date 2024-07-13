@@ -20,7 +20,10 @@
     "node": ">=18.0"
   },
   "dependencies": {
+    "@cdktf/provider-cloudflare": "11.15.0",
+    "@cdktf/provider-digitalocean": "11.5.2",
     "@cdktf/provider-tfe": "^11.5.0",
+    "@cdktf/provider-tls": "10.0.0",
     "cdktf": "^0.20.8",
     "constructs": "^10.3.0",
     "defu": "^6.1.4",

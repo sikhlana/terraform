@@ -88,7 +88,7 @@ async function main(app: App): Promise<void> {
       }
 
       await buildConstructs(
-        join(dir, 'common'),
+        join(dir, 'constructs'),
         childContainer,
         childContainer,
         instance,
