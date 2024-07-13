@@ -1,7 +1,7 @@
 {
   "language": "typescript",
   "app": "npx ts-node main.ts",
-  "projectId": "[UUID]",
+  "projectId": "e0013d32-111e-4db5-9126-0e9948bb1a92",
   "sendCrashReports": "true",
   "terraformProviders": [
     "namecheap/namecheap@~> 2.1",
